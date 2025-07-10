@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\lauru\\Documents",
+        "C:\\Users\\lauru\\Downloads"
+      ]
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-google-maps"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyADW52yyCu6YBH8r8lcJtsqACEht5okB-I"
+      }
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "resource-monitor": {
+		"command": "C:\\Users\\lauru\\PythonProjects\\AutoGen_MCP\\mcp-resource-monitor\\venv\\Scripts\\python.exe",
+		"args": ["C:\\Users\\lauru\\PythonProjects\\AutoGen_MCP\\mcp-resource-monitor\\app\\main.py"],
+		"env": {},
+		"type": "stdio"
+		}
+  }
+}
